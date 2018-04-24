@@ -4,7 +4,7 @@ file_number = 1
 data_all = data.frame()
 
 for (ratio in c(.8, 1.4, 1.6)) {
-  for (cohens_d in c(.1, .7, 1.5)) {
+  for (cohens_d in c(.15, .7, 1.5)) {
     subject_count_A = 90 + runif(1, -10, 10)
     subject_count_B = 90 + runif(1, -10, 10)
     
@@ -57,4 +57,4 @@ ggplot(data_all) +
   theme_bw()
 
 
-read_csv('simple effect example/simple effect 9.csv') %>% effsize::cohen.d(completion_time ~ tutorial, .)
+read_csv('simple effect 9.csv') %>% effsize::cohen.d(completion_time ~ tutorial, .)
