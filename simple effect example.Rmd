@@ -1,0 +1,20 @@
+---
+title: "Simple Effect Examples"
+output: html_document
+---
+
+In this example, you have tested how two different tutorials affect one’s ability to use an application. You’ve recruited subjects and randomly assigned each to either Tutorial_A or Tutorial_B. After completing their designated tutorial, they perform a task in the application, and you time how long it takes them.
+
+## A summary of this experiment data
+
+* This is a between subject experiment.
+* Independent variable: **tutorial** (2 conditions - A and B)
+* Dependent variable: **completion_time** (continuous variable measured in seconds)
+
+## What you need to do
+
+1. Download a CSV dataset from http://steveh.co/public/simple_effect_examples/data/
+1. Read the data into R.
+1. Follow the simple effect size guide to understand the performance differences following the two different tutorials.
+1. Which tutorial yeilds faster performance (lower completion time)? How reliable is that difference? 
+1. Report the results as you would in a paper.
